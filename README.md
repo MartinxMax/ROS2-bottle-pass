@@ -26,7 +26,7 @@ $ colcon build
 Load the map:
 
 ```bash
-$ cp -r ./maps /home/two/ros2_ws/src/wpr_simulation2/maps
+$ cp ./waypoints.yaml ~;cp -r ./maps /home/two/ros2_ws/src/wpr_simulation2/maps
 ```
 
 Load the environment:
